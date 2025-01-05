@@ -5,7 +5,7 @@ import Navbar from '../component/Navbar';
 
 const Router = () => {
       return (
-            <div className='overflow-x-hidden'>
+            <div className='overflow-x-hidden px-10 bg-slate-500 h-screen' >
                   <Navbar />
                   <Routes>
                         <Route path='./' element={<Home />} />
