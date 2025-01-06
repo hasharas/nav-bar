@@ -10,7 +10,7 @@ const Navbar = () => {
                   <nav className='container flex  justify-between px-5 py-7  w-full  items-center'>
                         {/* logo section */}
                         <div >
-                              {/* <GiAbstract004 /> */}
+
                               <Link to='./' className='flex items-center  gap-2'>
                                     <h1 className='text-[20px] font-serif font-medium uppercase'>Use</h1>
                                     <h1 className='text-[20px] font-serif font-medium text-[#fb923c] uppercase'>LOGO</h1>
@@ -32,7 +32,14 @@ const Navbar = () => {
                               <button className='text-2xl hover:bg-[#fb923c] hover:text-white rounded-full p-2 duration-200'>
                                     <CiSearch className='' />
                               </button>
-                              <CiShoppingCart className='text-2xl' />
+                              <button className='text-2xl hover:bg-[#fb923c] hover:text-white rounded-full p-2 duration-200'>
+                                    <CiShoppingCart className='' />
+                              </button>
+                              <button className='hover:bg-[#fb923c] text-[#fb923c] font-semibold hover:text-white
+                              rounded-md border-2 border-[#fb923c] px-6 py-2 duration-200 hidden md:block'>
+                                    LogIn
+                              </button>
+
                         </div>
                         {/* mobile hamberger menu section */}
 
