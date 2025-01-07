@@ -5,7 +5,8 @@ import Navbar from '../component/Navbar';
 
 const Router = () => {
       return (
-            <div className='overflow-x-hidden px-4 h-screen' >
+            //add bg color esy to find div lines
+            <div className='overflow-x-hidden bg-amber-50 px-4 h-screen' >
                   <Navbar />
                   <Routes>
                         <Route path='./' element={<Home />} />
