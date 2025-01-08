@@ -67,6 +67,11 @@ const Navbar = () => {
                                                       About
                                                 </Link>
                                           </li>
+                                          <li>
+                                                <Link to='/about' className='text-white' >
+                                                      Blog
+                                                </Link>
+                                          </li>
                                     </ul>
                               </div>
                         )}
